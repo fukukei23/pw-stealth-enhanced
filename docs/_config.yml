@@ -1,0 +1,15 @@
+title: pw-stealth-enhanced
+description: Playwright用アンチフィンガープリントライブラリ — 機能ショーケース
+remote_theme: just-the-docs/just-the-docs
+
+baseurl: /pw-stealth-enhanced
+url: https://fukukei23.github.io
+
+color_scheme: light
+search_enabled: true
+
+aux_links:
+  "📂 GitHub リポジトリ":
+    - "https://github.com/fukukei23/pw-stealth-enhanced"
+
+nav_enabled: true

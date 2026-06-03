@@ -1,0 +1,15 @@
+// Make aux-nav link (top-right "GitHub リポジトリ") more prominent
+.aux-nav .site-button {
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  padding: 6px 16px !important;
+  border: 2px solid #0969da !important;
+  border-radius: 8px !important;
+  transition: background-color 0.15s ease, color 0.15s ease !important;
+}
+
+.aux-nav .site-button:hover {
+  background-color: #0969da !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
