@@ -1,15 +1,38 @@
 // Make aux-nav link (top-right "GitHub リポジトリ") more prominent
 .aux-nav .site-button {
-  font-size: 0.95rem !important;
-  font-weight: 700 !important;
-  padding: 6px 16px !important;
-  border: 2px solid #0969da !important;
-  border-radius: 8px !important;
-  transition: background-color 0.15s ease, color 0.15s ease !important;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  padding: 5px 14px !important;
+  background-color: #24292f !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  transition: background-color 0.2s ease !important;
+  text-decoration: none !important;
 }
 
 .aux-nav .site-button:hover {
-  background-color: #0969da !important;
+  background-color: #3b82f6 !important;
   color: #fff !important;
+  text-decoration: none !important;
+}
+
+// 本文内の「GitHub リポジトリ →」ボタン
+.btn.btn-blue {
+  display: inline-block !important;
+  background-color: #24292f !important;
+  border-radius: 6px !important;
+  padding: 8px 18px !important;
+  font-weight: 600 !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.btn.btn-blue a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.btn.btn-blue:hover {
+  background-color: #3b82f6 !important;
   text-decoration: none !important;
 }
