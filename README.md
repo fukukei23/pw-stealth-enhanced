@@ -1,5 +1,9 @@
 # pw-stealth-enhanced
 
+[![CI](https://github.com/fukukei23/pw-stealth-enhanced/actions/workflows/ci.yml/badge.svg)](https://github.com/fukukei23/pw-stealth-enhanced/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 <!-- English: Enhanced stealth/anti-fingerprinting library for Python Playwright, successor to the deprecated playwright-stealth. Provides navigator.webdriver masking, canvas/WebGL/audio fingerprint protection, font enumeration spoofing, and UA/viewport rotation pools. Requires Python 3.10+ and Playwright >= 1.40. -->
 
 `playwright-stealth` の後継。Python Playwright向けの包括的なステルス/アンチフィンガープリントライブラリ。
